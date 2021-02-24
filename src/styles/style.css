@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.more-coin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+}
+
+.more-coin button {
+  padding: 0.5rem 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background-color: #490049;
+  color: white;
+  cursor: pointer;
+}
+
+nav {
+  background-color: #ad3838;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-right: 3rem;
+}
+
+nav ul li {
+  padding: 0.5rem 1rem;
+}
+
+nav ul li a {
+  font-size: 1.5rem;
+  color: white;
+}
+
+nav ul li img {
+  height: 34px;
+  width: 140px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  background-color: #9b8d8d;
+}
+/*# sourceMappingURL=style.css.map */
